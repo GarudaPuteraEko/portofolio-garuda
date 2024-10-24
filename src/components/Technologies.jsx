@@ -1,8 +1,9 @@
 import { FaLaravel } from "react-icons/fa"
 import { FaUnity } from "react-icons/fa6"
 import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb"
+import { TbBrandFramerMotion, TbBrandNextjs } from "react-icons/tb"
 import { motion } from "framer-motion"
+import { SiVite } from "react-icons/si"
 
 const iconVariants = (duration) => ({
     initial: { y: -10},
@@ -57,6 +58,20 @@ const Technologies = () => {
                 variants={iconVariants(4)}
                 className="p-4">
                 <RiReactjsLine className="text-7xl text-cyan-400"/>
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(3.5)}
+                className="p-4">
+                <SiVite className="text-7xl text-yellow-400"/>
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(5)}
+                className="p-4">
+                <TbBrandFramerMotion className="text-7xl text-purple-600"/>
             </motion.div>
         </motion.div>
     </div>
