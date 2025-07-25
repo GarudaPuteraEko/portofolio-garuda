@@ -1,9 +1,11 @@
 import { FaLaravel } from "react-icons/fa"
-import { FaUnity } from "react-icons/fa6"
-import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandFramerMotion, TbBrandNextjs } from "react-icons/tb"
 import { motion } from "framer-motion"
-import { SiVite } from "react-icons/si"
+import { FaHtml5 } from "react-icons/fa6";
+import { FaCss3Alt } from "react-icons/fa6";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaJava } from "react-icons/fa";
+import { SiXampp } from "react-icons/si";
+import gdeveloplogo from '../assets/gdev.jpeg';
 
 const iconVariants = (duration) => ({
     initial: { y: -10},
@@ -32,18 +34,33 @@ const Technologies = () => {
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1.5 }}
             className="flex flex-wrap items-center justify-center gap-4">
-            <motion.div
-                initial="initial"
-                animate="animate"
-                variants={iconVariants(2.5)}>
-                <FaUnity className="text-7xl "/>
-            </motion.div>
             <motion.div 
                 initial="initial"
                 animate="animate"
                 variants={iconVariants(3)}
                 className="p-4">
-                <TbBrandNextjs className="text-7xl"/>
+                <FaHtml5 className="text-7xl text-orange-600"/>
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(4.5)}
+                className="p-4">
+                <FaCss3Alt className="text-7xl text-blue-600"/>
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(5)}
+                className="p-4">
+                <IoLogoJavascript className="text-7xl text-yellow-500"/>
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(4)}
+                className="p-4">
+                <FaJava className="text-7xl text-cyan-400"/>
             </motion.div>
             <motion.div 
                 initial="initial"
@@ -55,23 +72,20 @@ const Technologies = () => {
             <motion.div 
                 initial="initial"
                 animate="animate"
-                variants={iconVariants(4)}
+                variants={iconVariants(5.5)}
                 className="p-4">
-                <RiReactjsLine className="text-7xl text-cyan-400"/>
+                <SiXampp className="text-7xl text-orange-500"/>
             </motion.div>
             <motion.div 
                 initial="initial"
                 animate="animate"
                 variants={iconVariants(3.5)}
                 className="p-4">
-                <SiVite className="text-7xl text-yellow-400"/>
-            </motion.div>
-            <motion.div 
-                initial="initial"
-                animate="animate"
-                variants={iconVariants(5)}
-                className="p-4">
-                <TbBrandFramerMotion className="text-7xl text-purple-600"/>
+                <img 
+                    src={gdeveloplogo}
+                    alt="GDevelop"
+                    className="w-16 h-16 object-contain rounded"
+                />
             </motion.div>
         </motion.div>
     </div>

@@ -1,8 +1,8 @@
-import project1 from "../assets/projects/knightGame.webp";
-import project2 from "../assets/projects/portfolio.webp";
-import project3 from "../assets/projects/todolist.webp";
-import project4 from "../assets/projects/rudaOlshop.webp";
-import project5 from "../assets/projects/imt.webp";
+import project1 from "../assets/projects/extremeMiner.webp";
+import project2 from "../assets/projects/sokoban.webp";
+import project3 from "../assets/projects/gamestore.webp";
+import project4 from "../assets/projects/olshopGarud.webp";
+import project5 from "../assets/projects/portfolio.webp";
 
 export const HERO_CONTENT = `I am a passionate Game Developer and Web Developer with a strong focus on creating interactive, user-friendly experiences. With expertise in both game design and full-stack web development, I bring creative ideas to life through immersive gameplay and efficient, visually appealing websites. I thrive on solving complex problems and continuously expanding my knowledge to stay ahead of the latest trends in technology. My work is driven by a commitment to quality, innovation, and delivering products that inspire and engage users.`;
 
@@ -21,50 +21,50 @@ export const EXPERIENCES = [
     role: "Software Engineering Student",
     company: "SMKN 21 Jakarta",
     description: `Learn anything about software engineer.`,
-    technologies: ["mySQL", "AndroidStudio", "Unity", "GDevelop", "Laravel", "NextJs"],
+    technologies: ["XAMPP", "Laravel", "Java", "GDevelop", "NextJs"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Knight Adventure Game",
+    title: "Extreme Miner",
     image: project1,
-    url: "https://ruda102.itch.io/short-adventure-of-knight",
+    url: "https://ruda102.itch.io/extreme-miner",
     description:
       "A platformer game that can fill you free time.",
     technologies: ["GDevelop5", "Java"],
   },
   {
-    title: "Portfolio Website",
+    title: "Sokoban",
     image: project2,
-    url: "https://portfolio-garuda-putera-eko.vercel.app/",
+    url: "https://ruda102.itch.io/sokoban-by-garuda",
     description:
-      "A portfolio website.",
-    technologies: ["NextJs", "Tailwind CSS", "ViteJs", "ReactJs", "Framer Motion"],
+      "A logic-based puzzle game to challenge your mind and fill your free time.",
+    technologies: ["GDevelop5", "Java"],
   },
   {
-    title: "To Do List Website",
+    title: "Ruda Gamestore",
     image: project3,
-    url: "https://github.com/GarudaPuteraEko/ToDo-List",
+    url: "https://github.com/GarudaPuteraEko/ruda_gamestore",
     description:
-      "A website to help you plan something.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "A Laravel-based game store where users can publish their games, explore others’, make purchases, and play.",
+    technologies: ["Laravel", "XAMPP"],
   },
   {
     title: "Online Shop Website",
     image: project4,
-    url: "https://github.com/GarudaPuteraEko/olshop_ruda",
+    url: "https://github.com/GarudaPuteraEko/online_shop_garud",
     description:
-      "A website to make it easier for you to buy a motorbike.",
-    technologies: ["HTML", "CSS", "PHP", "MySQL"],
+      "A website to make it easier for you to buy something.",
+    technologies: ["Laravel", "XAMPP"],
   },
   {
-    title: "IMT Website",
+    title: "Portfolio Website",
     image: project5,
-    url: "https://github.com/GarudaPuteraEko/tugas_imt",
+    url: "https://portfolio-garuda-putera-eko.vercel.app/",
     description:
-      "A website to measure your body mass index (BMI).",
-    technologies: ["HTML", "CSS", "PHP"],
+      "A portfolio website.",
+    technologies: ["NextJs"],
   },
 ];
 
