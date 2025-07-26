@@ -6,6 +6,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaJava } from "react-icons/fa";
 import { SiXampp } from "react-icons/si";
 import gdeveloplogo from '../assets/gdev.jpeg';
+import { TbBrandNextjs } from "react-icons/tb";
 
 const iconVariants = (duration) => ({
     initial: { y: -10},
@@ -68,6 +69,13 @@ const Technologies = () => {
                 variants={iconVariants(6)}
                 className="p-4">
                 <FaLaravel className="text-7xl text-red-600"/>
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(2.5)}
+                className="p-4">
+                <TbBrandNextjs className="text-7xl text-white-400"/>
             </motion.div>
             <motion.div 
                 initial="initial"

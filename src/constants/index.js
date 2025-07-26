@@ -10,18 +10,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2020 - Present",
-    role: "Youtuber",
-    company: "Google Inc.",
-    description: `Create Video Game content for many people.`,
-    technologies: ["XRecorder", "Capcut", "Pixelab"],
-  },
-  {
     year: "2023 - Present",
     role: "Software Engineering Student",
     company: "SMKN 21 Jakarta",
     description: `Learn anything about software engineer.`,
     technologies: ["XAMPP", "Laravel", "Java", "GDevelop", "NextJs"],
+  },
+  {
+    year: "2020 - Present",
+    role: "Youtuber",
+    company: "Google Inc.",
+    description: `Create Video Game content for many people.`,
+    technologies: ["XRecorder", "Capcut", "Pixelab"],
   },
 ];
 

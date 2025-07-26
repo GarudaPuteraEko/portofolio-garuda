@@ -27,7 +27,7 @@ const Hero = () => {
                     <motion.img 
                       src={profilePic} 
                       alt="Garuda" 
-                      className="border border-stone-900 rounded-3xl"
+                      className="border border-stone-900 rounded-full"
                       width={650}
                       height={650}
                       initial={{ x: 100, opacity: 0 }}
